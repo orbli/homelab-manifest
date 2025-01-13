@@ -1,0 +1,8 @@
+project: homelab
+source:
+  repoURL: https://github.com/jgraph/docker-drawio.git
+  path: deploy/kubernetes
+  targetRevision: HEAD
+destination:
+  server: https://kubernetes.default.svc
+  namespace: drawio
